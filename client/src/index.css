@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+#mermaid .node path.transparent-edge,
+#mermaid .startend path.transparent-edge {
+  fill: transparent !important;
+  stroke: transparent !important;
+  stroke-width: 10px !important;
+}
+
+#mermaid .hovered {
+  /* some outline */
+  outline: 1px solid #000;
+}
+
+#mermaid .label.hovered,
+#mermaid .label.editing {
+  outline: 1px solid #425de7;
+}
+
+#mermaid .label.editing input:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+#mermaid .label.editing input:active {
+  outline: none !important;
+  border: none !important;
+}
